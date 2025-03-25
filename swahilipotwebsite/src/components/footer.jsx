@@ -1,4 +1,4 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -60,6 +60,14 @@ export default function Footer() {
                 className="text-gray-200 hover:text-blue-300"
               >
                 <FaLinkedin className="text-2xl" />
+              </a>
+              <a
+                href="https://youtube.com/@swahilipothubfoundation?si=70PYs-EkBY-vOOQK"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-200 hover:text-blue-300"
+              >
+                <FaYoutube className="text-2xl" />
               </a>
             </div>
           </div>
